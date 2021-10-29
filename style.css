@@ -38,6 +38,7 @@ sl-button::part(label) {
     height: 100vh;
     display: flex;
     overflow: hidden;
+    position: relative;
 }
 
 

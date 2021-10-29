@@ -11,3 +11,30 @@
     flex-wrap: wrap;
     gap: 15px;
 }
+
+.center {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form h2 {
+    text-indent: 20px;
+}
+
+.form__container {
+    padding: 30px;
+    border-radius: 15px;
+    width: min(440px, 40vw);
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

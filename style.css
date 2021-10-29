@@ -9,8 +9,8 @@
 }
 
 a {
-    text-decoration: none;
-    color: var(--linkPrimary);
+    text-decoration: none !important;
+    color: var(--linkPrimary) !important;
 }
 
 sl-button::part(label) {

@@ -92,6 +92,14 @@ sl-button::part(label) {
     height: 200px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content__header-top {
+    align-self: flex-end;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .content__header-poster {

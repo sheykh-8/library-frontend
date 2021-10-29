@@ -1,0 +1,13 @@
+
+
+.shadow {
+    border: 1px solid var(--borderColor);
+    box-shadow: 1px 0 12px var(--shadowgrey);
+}
+
+
+.row-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}

@@ -109,3 +109,25 @@ sl-button::part(label) {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.book-item {
+    width: 212px;
+    height: 232px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 15px;
+    border-radius: 15px;
+    gap: 10px;
+}
+
+.book-item img {
+    height: 153px;
+    object-fit: cover;
+}
+
+
+.content__section {
+    display: grid;
+    gap: 15px;
+}

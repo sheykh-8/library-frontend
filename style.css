@@ -167,6 +167,7 @@ sl-button::part(label) {
 
 .book-detail__credits {
     flex: 2;
+    text-align: justify;
 }
 
 .book-detail__image {

@@ -57,22 +57,26 @@
           <form asp-action="Login" class="form__container add-book shadow">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="book-image">
-              <img src="/assets/ImagePlaceholder.png" draggable="false" />
+              <img id="book-image" src="/assets/ImagePlaceholder.png" onerror="this.src='/assets/ImagePlaceholder.png'" draggable="false" />
             </div>
             <div class="form" style="flex: 1;">
               <input type="text" placeholder="ISBN" class="form-control">
               <input type="text" placeholder="Name" class="form-control">
-              <input type="text" placeholder="Image" class="form-control">
+              <!-- <input id="image-input" onchange="onImageChange(event)" type="text" placeholder="Image" class="form-control"> -->
+              <div>
+                <input type="file" accept="image/*" class="form-control" id="bookImage" onchange="onImageChange(event)">
+              </div>
               <input type="text" placeholder="Author" class="form-control">
               <input type="text" placeholder="Publisher" class="form-control">
               <input type="text" placeholder="Description" class="form-control">
             </div>
-            <input type="submit" class="btn btn-success" />
+            <input type="submit" class="btn btn-success" Value="Create" />
           </form>
         </div>
       </div>
     </div>
   </div>
+  <script src="/scripts.js"></script>
 </body>
 
 </html>

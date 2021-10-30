@@ -150,5 +150,10 @@ sl-button::part(label) {
 
 .book-image {
     height: 278px;
+    /* object-fit: cover; */
+}
+
+.book-image img {
+    height: 100%;
     object-fit: cover;
 }

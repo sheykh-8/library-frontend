@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.58/dist/themes/light.css"
+    />
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.58/dist/shoelace.js"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/color.css" />
+    <link rel="stylesheet" href="/common.css" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Library</title>
+  </head>
+  <body>
+    <div class="app">
+      <div class="main-sidebar">
+        <div class="main-sidebar__top">
+          <div class="main-sidebar__item active">
+            <sl-button type="text">
+              <img src="/assets/home.svg" />
+            </sl-button>
+          </div>
+          <div class="main-sidebar__item">
+            <sl-button type="text">
+              <img src="/assets/book.svg" />
+            </sl-button>
+          </div>
+          <div class="main-sidebar__item">
+            <sl-button type="text">
+              <img src="/assets/users.svg" />
+            </sl-button>
+          </div>
+        </div>
+        <div class="main-sidebar__bottom">
+          <div class="main-sidebar__item">
+            <sl-button type="text">
+              <img src="/assets/logout.svg" />
+            </sl-button>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="profile-header">
+          <div class="center profile-header__bulb">
+            <object type="image/svg+xml" data="/assets/Curve.svg"></object>
+            <div class="profile-header__data">
+              <img src="/assets/Profile.png" />
+              <strong>Sorour Eskandari</strong>
+              <p>sorour_sn</p>
+            </div>
+          </div>
+        </div>
+        <div class="profile-actions">
+          <a href="#">
+            <div class="profile-actions__button shadow purple">
+              <object type="image/svg+xml" data="/assets/Bookmark.svg"></object>
+              <p class="big-text">Issued Books</p>
+            </div>
+          </a>
+          <a href="#2">
+            <div class="profile-actions__button shadow green">
+              <object type="image/svg+xml" data="/assets/User.svg"></object>
+              <p class="big-text">Users List</p>
+            </div>
+          </a>
+          <a href="#3">
+            <div class="profile-actions__button shadow yellow">
+              <object type="image/svg+xml" data="/assets/Edit.svg"></object>
+              <p class="big-text">Edit User</p>
+            </div>
+          </a>
+        </div>
+        <div class="corner-pattern">
+          <img src="/assets/corner-pattern.png" draggable="false" />
+        </div>
+      </div>
+    </div>
+    <script src="/scripts.js"></script>
+  </body>
+</html>
